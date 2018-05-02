@@ -66,7 +66,7 @@
                     <instructions>
                         <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
                         <Bundle-Version>${project.version}</Bundle-Version>
-                        <Bundle-Activator>vn.quantda.example.osgi.bundlewatcher.remoteupgrader.RemoteBundleUpgradeActivator</Bundle-Activator>
+                        <Bundle-Activator>vn.quantda.example.osgi.bundlewatcher.remoteupgrader.RemoteBundleUpgrader</Bundle-Activator>
                         <Export-Package>vn.quantda.example.osgi.bundlewatcher.remoteupgrader*;version=${project.version}</Export-Package>
                         <Import-Package>*</Import-Package>
                     </instructions>
